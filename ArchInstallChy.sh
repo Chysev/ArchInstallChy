@@ -12,6 +12,21 @@ echo -ne "
                  |___/  
 -------------------------------------------------------------------------                   
 "
+
+# Permissions
+chmod +x ./ArchChyInstall/Initial.sh
+
+chmod +x ./ArchChyInstall/setkey_font_date.sh
+
+chmod +x ./ArchChyInstall/formatdisk.sh
+
+chmod +x ./ArchChyInstall/mountpartition.sh
+
+chmod +x ./ArchChyInstall/packages.sh
+
+chmod +x ./ArchChyInstall/locale_clock_timezone.sh
+
+# Installation
 ./ArchChyInstall/Initial.sh
 
 ./ArchChyInstall/setkey_font_date.sh
